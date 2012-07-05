@@ -13,7 +13,7 @@ import com.example.model.Message;
 public class MessageUtil {
 
 	public static List<Message> getMessages() {
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("hsqldb");
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("jndi");
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction tx = em.getTransaction();
 		tx.begin();
