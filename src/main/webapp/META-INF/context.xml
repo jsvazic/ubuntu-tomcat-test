@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+    <Resource name="jdbc/ExampleDB" auth="Container" type="javax.sql.DataSource"
+              maxActive="100" maxIdle="30" maxWait="10000" 
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              username="SA" password="" driverClassName="org.hsqldb.jdbcDriver"
+              url="jdbc:hsqldb:file:/tmp/testdb"/>
+</Context>
